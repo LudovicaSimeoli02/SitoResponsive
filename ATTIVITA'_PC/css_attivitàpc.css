@@ -1,0 +1,473 @@
+body {
+	background-color: #bfd7e3; 
+}
+div.scrollmenu {
+  background-color: #95acd0;
+   width: 95%; 
+  margin-left: 40px; 
+  margin-right: 40px; 
+   overflow: hidden;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+.btn-group button {
+  background-color: #7f9bc6 ; 
+  color: white; 
+  padding: 10px 70px; 
+  cursor: pointer; 
+  width: 15%; 
+  display: block;
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; 
+}
+
+
+.btn-group button:hover {
+  background-color: #99cbff;
+}
+
+h1{
+	color: #903726; 
+	font-size: 40px; 
+	position: relative; 
+	
+	top: -10px; 
+	
+}
+
+h8 {
+	color: #903726; 
+	font-size: 150%; 
+	position: relative; 
+	top: 15px; 
+	left: 14%; 
+}
+
+
+#sfondo {
+	background-color: #e4e3e3; 
+	width: 30%; 
+	height: 150px; 
+	margin-right: 40px; 
+	position: relative; 
+	top: 330px; 
+	left: -40%; 
+	float: left; 
+}
+
+#destinatario {
+	background-color: #e4e3e3; 
+	width: 40%; 
+	height: 450px; 
+	position: relative; 
+	left: 57.4%; 
+	top: 30px; 
+
+}
+div.cardenumeri {
+	position: relative; 
+	top: 24px; 
+}
+div.datidestinatario {
+	font-size: 100%; 
+	width: 80%; 
+	position: relative; 
+	left: -10%; 
+	top: -310px; 
+
+}
+input[type=text1] {
+  width: 40%;
+ position: relative; 
+ left: 80%;
+ top: -10px; 
+  
+  
+}
+
+h9 {
+	font-size: 170%; 
+	position: relative; 
+	top: -320px; 
+	left: 35%; 
+	color: #903726; 
+	
+}
+
+
+
+.column {
+  float: left;
+  position: relative;
+  top: 5px; 
+  left: 2.5%; 
+
+  
+  width: 15%;
+  margin-bottom: 30px;
+  margin-right: 20px; 
+  padding: 0 8px;
+  padding-bottom: 30px; 
+  
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+  padding: 16px 16px;
+  background-color: #95acd0; 
+  
+}
+input[type=text] {
+  width: 10%;
+  height: 2px; 
+  position: relative; 
+  top: -15px; 
+  left: -20%; 
+  margin-bottom: 20px;
+  margin-left: 150px; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  
+}
+
+div.servizi {
+	font-size:130%;
+	line-height: 150%; 
+	position: relative;
+left: 14%;  
+top: 16px; 	
+
+	
+}
+label {
+  margin-bottom: 10px;
+  display: block;
+  position: relative; 
+left: 25%;   
+top: 23px;  
+  font-size: 25px; 
+ color: black; 
+   
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px;
+ 
+  border: none;
+  width: 15%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  float: right; 
+  position: relative; 
+  left: -2.8%;
+  top: 50px; 
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+
+/*TABLET*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	
+
+#destinatario {
+	background-color: #e4e3e3; 
+	width: 60%; 
+	height: 450px; 
+	float: left; 
+	position: relative; 
+	left: 5%;
+	top: -115px; 
+	
+
+}
+
+.column {
+  float: left;
+  position: relative;
+  top: 5px; 
+  left: 22.5%; 
+
+  
+  width: 15%;
+  margin-bottom: 30px;
+  margin-right: 25px; 
+  padding: 0 10px;
+  padding-bottom: 30px; 
+  
+}
+div.datidestinatario {
+	font-size: 100%; 
+	width: 80%; 
+	position: relative; 
+	left: -2%; 
+	top: 44px; 
+
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  position: relative; 
+left: 15%;   
+top: 23px;  
+  font-size: 20px; 
+ 
+ 
+}
+
+input[type=text1] {
+  width: 30%;
+ position: relative; 
+ left: 80%;
+ top: -10px; 
+  
+  
+}
+
+
+
+h9 {
+	color: #903726; 
+	font-size: 140%; 
+	position: relative; 
+	top: 15px; 
+	left: 35%; 
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px;
+ 
+  border: none;
+  width: 45%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  
+  position: relative; 
+  left: -1%;
+  top: -50px; 
+}
+
+input[type=text] {
+  width: 10%;
+  height: 2px; 
+  position: relative; 
+  top: -15px; 
+  left: -60%; 
+  margin-bottom: 20px;
+  margin-left: 150px; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  
+}
+
+
+
+#sfondo {
+	background-color: #e4e3e3; 
+	width: 30%; 
+	height: 450px; 
+	margin-right: 40px; 
+	position: relative; 
+	left: 10%;
+	top: 333px; 
+	
+	
+}
+
+
+div.servizi {
+	font-size:130%;
+	line-height: 470%; 
+	position: relative;
+left: 5%;  
+top: 36px; 	
+	
+}
+
+
+}
+
+
+
+/*TELEFONO*/
+@media screen and (min-width: 380px) and (max-width: 870px) {
+	
+	
+	.scrollmenu {
+	 display: none; 
+ }
+ 
+ #destinatario {
+	background-color: #e4e3e3; 
+	width: 45%; 
+	height: 450px; 
+	
+	position: relative; 
+	left: 27.5%; 
+	top: 85px; 
+}
+
+#sfondo {
+	background-color: #e4e3e3; 
+	width: 45%; 
+	height: 200px; 
+	margin-right: 40px; 
+	position: relative; 
+	left: 7%;
+	top: 750px; 
+	
+	
+}
+
+
+
+div.fotono {
+	display: none; 
+}
+
+div.fotosi {
+	width: 300%; 
+	position: relative; 
+	left: 24%; 
+	top: -20px;
+	
+}
+ 
+ div.container {
+	 width: 100%; 
+	  padding: 1px 5px 1px 5px;
+ }
+ 
+ .card {
+  box-shadow: none; 
+}
+
+div.containersmall {
+	position: relative; 
+	left: 24%; 
+}
+
+div.numero1 {
+	position: relative; 
+	left: 230%; 
+	top: -85px; 
+}
+ 
+ div.containermedium {
+	 position: relative; 
+	 left: -113%; 
+	 top: 260px; 
+ }
+ div.numero2 {
+	 position: relative; 
+	 left: 90%; 
+	 top: 175px;
+ }
+ 
+ div.containerlarge {
+	 position: relative; 
+	 left: -250%; 
+	 top: 370px; 
+ }
+ 
+ div.numero3 {
+	 position: relative; 
+	 left: -47%; 
+	 top: 282px; 
+ }
+ 
+ h9 {
+	color: #903726; 
+	font-size: 140%; 
+	position: relative; 
+	top: 15px; 
+	left: 28%; 
+}
+
+ input[type=text1] {
+  width: 36%;
+ position: relative; 
+ left: 80%;
+ top: -10px; 
+  
+  
+}
+
+input[type=text] {
+  width: 10%;
+  height: 2px; 
+  position: relative; 
+  top: -10px; 
+  left: -60%; 
+  margin-bottom: 20px;
+  margin-left: 150px; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  
+}
+ 
+ h8 {
+	color: #903726; 
+	font-size: 130%; 
+	position: relative; 
+	top: 15px; 
+	left: 11%; 
+}
+
+div.servizi {
+	font-size:130%;
+	line-height: 250%; 
+	position: relative;
+left: 11%;  
+top: 16px; 	
+	
+}
+ 
+ 
+ .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px;
+ 
+  border: none;
+  width: 45%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  
+  position: relative; 
+  left: -27.5%;
+  top: 310px; 
+}
+ 
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<meta name = "viewpoint" content= "width = device-width, initial-scale= 1.0">
+	<head>
+	<Title> Pagamento Spedizione </Title>
+	
+        <meta charset="UTF-8">
+
+		<link rel="stylesheet" href= "css_pagamentopc.css" /> 
+	</head>
+	
+	<body >
+	
+	<div class="scrollmenu" >
+  <img src= "trasporti.png" alt"icona" style= "float:left; width:50px; height: 50px; margin-left: 20px; ">
+  <a href="#home">Home</a>
+  <a href="#news">Tracking spedizione</a>
+  <a href="#contact"> Programma spedizione</a>
+  <a href="#prenota"> Contatti </a>
+  </div> 
+  
+  </br>
+  </br>
+  </br>
+  </br>
+ <h1 align= center> Checkout</h1>  
+ 
+    
+      <form action="/action_page.php">
+
+        <div class="row">
+         
+           
+            <label for="fname"><i class="fa fa-user"></i> Nome e Cognome</label>
+            <input type="text" id="fname" name="firstname" placeholder="Maria Rossi">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="M.Rossi@example.com">
+			
+			<label for="numero"> Numero di telefono </label> 
+<input type="text" id="fname" name="numero" placeholder="+39 000 0000000">
+			
+			
+			
+			<label for="adr"> Data di nascita</label>
+			<input type="date" id="pwd" class="fa fa-address-card-o" placeholder="DD/MM/YYYY" name="pswd">
+			
+            <label for="adr"><i class="fa fa-address-card-o"></i> Indirizzo</label>
+            <input type="text" id="adr" name="address" placeholder="Via Verdi,124">
+            <label for="city"><i class="fa fa-institution"></i> Città</label>
+            <input type="text" id="city" name="city" placeholder="Roma">
+
+            
+             
+                <label for="state">Stato</label>
+                <input type="text" id="state" name="state" placeholder="Italia">
+              
+              
+                <label for="zip">CAP</label>
+                <input type="text" id="zip" name="zip" placeholder="56021">
+				 <div class="scrittadomicilio">
+          <input type="checkbox" checked="checked" name="sameadr"> Il domicilio è lo stesso della residenza 
+        </div>
+              
+            
+          
+
+
+          </br> </br> </br> </br>
+            
+            <label for="fname"> Pagamenti accettati</label>
+			
+			
+			
+            <div class="icon-container" style= "margin-left: 70px;" >
+			
+			<div class="immagine1">
+            <img src="am.png" alt="am" style="width:8%">
+			</div> 
+			
+			<div class="immagine2"> 
+			<img src="mastercard.png" alt="mastercard" style="width:8%">
+			</div> 
+			
+			<div class="immagine3">
+			<img src="visa.png" alt="visa" style="width:8%">
+			</div>
+			
+            </div>
+			
+			
+            <label for="cname">Intestatario carta </label>
+            <input type="text" id="cname" name="cardname" placeholder="Maria Rossi">
+            <label for="ccnum">Numero della carta</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+			
+			
+</br>             
+<label for="scadedenza"> Scadenza carta </label>
+ 
+
+ </br> 
+<div class= "scadenzacarta" style= "margin-left: 70px; margin-bottom: 30px;" > 
+<select id="mese" name="Mese">
+<option value="-1">Mese:</option>
+<option value="January">Gennaio</option>
+<option value="February">Febbraio</option>
+<option value="March">Marzo</option>
+<option value="April">Aprile</option>
+<option value="May">Maggio</option>
+<option value="June">Giugno</option>
+<option value="July">Luglio</option>
+<option value="August">Agosto</option>
+<option value="September">Settembre</option>
+<option value="October">Ottobre</option>
+<option value="November">Novembre</option>
+<option value="December">Dicembre</option>
+</select>
+ 
+<select name="Anno" id="anno">
+ 
+<option value="-1">Anno:</option>
+<option value="2022">2022</option>
+<option value="2023">2023</option>
+<option value="2024">2024</option>
+<option value="2025">2025</option>
+<option value="2026">2026</option>
+<option value="2027">2027</option>
+<option value="2028">2028</option>
+<option value="2029">2029</option>
+<option value="2030">2030</option>
+<option value="2031">2031</option>
+<option value="2032">2032</option>
+<option value="2033">2033</option>
+<option value="2034">2034</option>
+<option value="2035">2035</option>
+</select>
+</td>
+</div> 
+
+			  
+			  
+              
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+			  
+         
+
+       
+        
+       
+      
+
+</br>
+</br>
+</br>
+</br>
+
+
+
+  
+    <div class="container" style= "margin-left: 150px; margin-right: 130px;" >
+      <h4> Riepilogo Ordine
+        
+      </h4>
+      <p> Servizio    <span class="price">€30</span></p>
+      <p> Assicurazione <span class="price">€12</span></p>
+      <p>Spedizione veloce <span class="price">€3</span></p>
+      <hr>
+      <p>Totale <span class="price2" ><b>€45</b></span></p>
+    </div>
+	<input type="submit" value="Paga" class="btn" style= "margin-left: 310px;">
+
+
+
+ 
+     
+	  </form>
+   
+  </body> 
